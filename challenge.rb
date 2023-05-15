@@ -1,4 +1,11 @@
 # Text-based Game Challenge
+def render_lightning
+  File.readlines('lightning.txt').each do |line|
+    puts line
+  end
+end
+
+render_lightning
 
 p 'Aloha, Charlie! So excited to do text-based game with you today. Are you excited? Type yes or no'
 response = gets.chomp

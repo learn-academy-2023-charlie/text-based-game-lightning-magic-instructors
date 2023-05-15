@@ -46,3 +46,37 @@ Think about the difference between `p` and `puts`. Using `p` in development is h
 Keep your code simple. You have all the tools you need to effectively construct the game. This is an exercise in organization, planning, and creativity.
 
 Have fun! This medium is prime for easter eggs and (class appropriate) inside jokes.
+
+
+## Planning
+- branch: setup
+  - Greet the user
+  - Questions
+  1. yes or no response 
+    a. if condition for yes
+    b. elsif condition for no
+    c. else condition
+  2. name response
+    a. message with name
+
+- branch: art-work
+  - reference: https://coderscat.com/ruby-how-to-read-file-in-lines/
+  - lightning ascii art at the top of file
+  - store ascii art on a text file `.txt`
+  - create a method to print out in the terminal
+    - use Ruby method `File.readlines()` which will store each line of the file as separate values in an array
+    - use .each() method to print each value in the terminal on separate lines
+  ```rb
+    # method definition
+    def <method_name>
+      File.readlines(<file_name>).each do |line|
+        puts line
+      end
+    end
+
+    #method call
+    <method_name>
+  ```
+
+
+
