@@ -51,13 +51,13 @@ Have fun! This medium is prime for easter eggs and (class appropriate) inside jo
 ## Planning
 - branch: setup
   - Greet the user
-  - Questions
-  1. yes or no response 
-    a. if condition for yes
-    b. elsif condition for no
-    c. else condition
-  2. name response
-    a. message with name
+  - Questions  
+  1. yes or no response   
+    a. if condition for yes  
+    b. elsif condition for no  
+    c. else condition  
+  2. name response  
+    a. message with name  
 
 - branch: art-work
   - reference: https://coderscat.com/ruby-how-to-read-file-in-lines/
@@ -68,10 +68,10 @@ Have fun! This medium is prime for easter eggs and (class appropriate) inside jo
     - use .each() method to print each value in the terminal on separate lines
   ```rb
     # method definition
-    def <method_name>
-      File.readlines(<file_name>).each do |line|
-        puts line
-      end
+    def <method_name>  
+      File.readlines(<file_name>).each do |line|  
+        puts line  
+      end  
     end
 
     #method call
