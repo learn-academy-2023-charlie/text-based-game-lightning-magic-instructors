@@ -48,7 +48,7 @@ Keep your code simple. You have all the tools you need to effectively construct 
 Have fun! This medium is prime for easter eggs and (class appropriate) inside jokes.
 
 
-## Planning
+## LIGHTNING MAGIC PLANNING
 - branch: setup
   - Greet the user
   - Questions  
