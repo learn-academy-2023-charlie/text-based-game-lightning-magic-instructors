@@ -22,4 +22,19 @@ user_name = gets.chomp
 
 p "Nice to meet you, #{user_name}"
 
+advice = [
+  'Prompt the player for input and store it in a variable to be used in your logic.',
+  'Identify the main components of your game, such as user names, options to advance through the story, scenes for each story, etc.',
+  'Define attributes for each story, such as its name, description, and any items or characters present in that space.',
+  'Determine the win and lose conditions for your game.'
+]
+
+approach = advice.sample
+
+p 'What type of game will you create today?'
+project = gets.chomp
+
+p "Okay, #{project} seems interesting. Well, here is a piece of advice that a developer shared with me. #{approach}"
+
+p 'Remember. Have fun while planning and reach out for help on your blockers'
 

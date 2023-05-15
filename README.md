@@ -78,5 +78,20 @@ Have fun! This medium is prime for easter eggs and (class appropriate) inside jo
     <method_name>
   ```
 
+- branch: sample
+  - using .sample() method to randomly output a different value from an array as a response to the user
+
+
+
+## Planning approach
+(contributed by Developer Tucker)
+
+
+## Demos
+Text-Based Game Demos (5 min each group):
+Show off ONE of your team’s favorite track in the story.
+Person 1: What was your team’s approach to creating that track?  Did the initial approach work? If not, what did you have to modify?
+Person 2: What was the hardest thing about this project?  What is the biggest take away?
+Person 3 (if applicable):  How did you manage the workflow in a group of three?
 
 
