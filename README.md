@@ -66,22 +66,29 @@ Have fun! This medium is prime for easter eggs and (class appropriate) inside jo
   - create a method to print out in the terminal
     - use Ruby method `File.readlines()` which will store each line of the file as separate values in an array
     - use .each() method to print each value in the terminal on separate lines
-  ```rb
-    # method definition
-    def <method_name>  
-      File.readlines(<file_name>).each do |line|  
-        puts line  
-      end  
-    end
+```rb
+  # method definition
+  def <method_name>  
+    File.readlines(<file_name>).each do |line|  
+      puts line  
+    end  
+  end
 
-    #method call
-    <method_name>
-  ```
+  #method call
+  <method_name>
+```
 
 - branch: sample
-  - using .sample() method to randomly output a different value from an array as a response to the user
+  - using .sample method to randomly output a different value from an array as a response to the user
 
-
+- branch: slow-type
+  - using .each_char method and putc to allow characters to display slower
+```rb
+  <object>.each_char do |value|
+    putc value
+    sleep 0.05
+  end
+```
 
 ## Planning approach
 (contributed by Developer Tucker)
@@ -89,9 +96,9 @@ Have fun! This medium is prime for easter eggs and (class appropriate) inside jo
 
 ## Demos
 Text-Based Game Demos (5 min each group):
-Show off ONE of your team’s favorite track in the story.
-Person 1: What was your team’s approach to creating that track?  Did the initial approach work? If not, what did you have to modify?
-Person 2: What was the hardest thing about this project?  What is the biggest take away?
-Person 3 (if applicable):  How did you manage the workflow in a group of three?
+  - Show off ONE of your team’s favorite track in the story.
+  - Person 1: What was your team’s approach to creating that track?  Did the initial approach work? If not, what did you have to modify?
+  - Person 2: What was the hardest thing about this project?  What is the biggest take away?
+  - Person 3 (if applicable):  How did you manage the workflow in a group of three?
 
 
