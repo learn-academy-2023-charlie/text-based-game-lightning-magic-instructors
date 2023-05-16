@@ -7,20 +7,28 @@ end
 
 render_lightning
 
-p 'Aloha, Charlie! So excited to do text-based game with you today. Are you excited? Type yes or no'
+'Aloha, Charlie! So excited to do text-based game with you today. Are you excited? '.each_char do |value|
+  putc value
+  sleep 0.06
+end
+
+puts 'Type yes or no.'
 response = gets.chomp
 
 if response == 'yes'
-  p "Great, let's start. By the way, I am part of the Lightning Magic Crew. My name is Thunder Bolt. What is your name?"
+  puts "Great, let's start. By the way, I am part of the Lightning Magic Crew. My name is Thunder Bolt. What is your name?"
 elsif response == 'no'
-  p "Good to know but you don't have a choice. You are under the management of Lightning Magic today, and this is the plan of the day. What is your name?"
+  puts "Good to know but you don't have a choice. You are under the management of Lightning Magic today, and this is the plan of the day. What is your name?"
 else
-  p 'Peculiar response. What is your name?'
+  puts 'Peculiar response. What is your name?'
 end
 
 user_name = gets.chomp
 
-p "Nice to meet you, #{user_name}"
+"Nice to meet you, #{user_name}. ".each_char do |value|
+  putc value
+  sleep 0.05
+end
 
 advice = [
   'Prompt the player for input and store it in a variable to be used in your logic.',
@@ -31,10 +39,22 @@ advice = [
 
 approach = advice.sample
 
-p 'What type of game will you create today?'
+puts 'What type of game will you create today?'
 project = gets.chomp
 
-p "Okay, #{project} seems interesting. Well, here is a piece of advice that a developer shared with me. #{approach}"
+puts "Okay, #{project} seems interesting. Well, here is a piece of advice that a developer shared with me."
 
-p 'Remember. Have fun while planning and reach out for help on your blockers'
+"#{approach} Remember. Have fun while planning and reach out for help on your blockers. ".each_char do |value|
+  putc value
+  sleep 0.05
+end
 
+puts 'Remember to show how much you CaReD'
+
+def render_happy
+  File.readlines('happy.txt').each do |line|
+    puts line
+  end
+end
+
+render_happy
